@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="7" tests="7" time="0">
+<testcase classname="Sample feature" name="Sample feature" time="0">
+<skipped><![CDATA[Given Open the app url......................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Scenario1" name="Error message shown on the login page when invalid credentials entered" time="0">
+<skipped><![CDATA[Given Open the app url......................................................undefined
+When the user enters username "random" on the username text box.............undefined
+And the user enters password "sdfsf" on the password text box...............undefined
+And the user clicks the LogIn button........................................undefined
+Then the invalid credentials error message "We didn't recognize the username or password you entered. Please try again." should be displayed.undefined
+]]></skipped>
+</testcase>
+<testcase classname="SampleTest2" name="Check error message &quot;Error: Email address required&quot;" time="0">
+<skipped><![CDATA[Given Open the app url......................................................undefined
+When the user clicks on Forgot Password link................................undefined
+And the user clicks on the Submit Button....................................undefined
+Then the error message "Error: Email address required" should be displayed..undefined
+]]></skipped>
+</testcase>
+<testcase classname="SampleTest2" name="Check error message &quot;Error: Invalid email address&quot;" time="0">
+<skipped><![CDATA[Given Open the app url......................................................undefined
+And the user is on the Forgot Password page.................................undefined
+When the user enters "abcd" on the text box.................................undefined
+And the user clicks on the Submit Button....................................undefined
+Then the invalid error message "Error: Invalid email address" should be displayed.undefined
+]]></skipped>
+</testcase>
+<testcase classname="Terms of Use" name="Check &quot;Terms of Use&quot; Page" time="0">
+<skipped><![CDATA[Given Open the app url......................................................undefined
+When the Listener clicks on Terms of Use link at the bottom of the page.....undefined
+Then verify the terms of use page url.......................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Terms of Use" name="Check &quot;Terms of Use&quot; page contents - Effective Date value" time="0">
+<skipped><![CDATA[Given Open the app url......................................................undefined
+And the user is on the Terms of Use page....................................undefined
+Then today's date should be displayed next to the Effective as of field.....undefined
+]]></skipped>
+</testcase>
+<testcase classname="Terms of Use" name="Check &quot;Terms of Use&quot; page - Dropdown value" time="0">
+<skipped><![CDATA[Given Open the app url......................................................undefined
+And the user is on the Terms of Use page....................................undefined
+When the Listener clicks on the Language drop on top right corner...........undefined
+Then the dropdown values should be displayed................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
