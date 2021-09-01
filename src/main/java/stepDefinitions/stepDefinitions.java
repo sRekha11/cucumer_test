@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 
 public class stepDefinitions {
 
-    String driverPath = "/Users/aselvamani/Desktop/untitled folder/qa-codetest-java-main/src/drivers/geckodriver";
+    String driverPath = "src/drivers/geckodriver";
     public static WebDriver driver = null;
 
 @io.cucumber.java.en.Given("^Open the app url$")
